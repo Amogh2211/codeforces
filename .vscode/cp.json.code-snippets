@@ -15,7 +15,7 @@
     "main": {
         "prefix": "cpp",
         "body": [
-            "// Author: πα",
+            "// Author: yeeter",
             "",
             "#include <bits/stdc++.h>",
             "using namespace std;",
@@ -33,7 +33,7 @@
     "main2": {
         "prefix": "cppt",
         "body": [
-            "// Author: πα",
+            "// Author: yeeter",
             "",
 			"#include <iostream>",
             "#include <bits/stdc++.h>",
