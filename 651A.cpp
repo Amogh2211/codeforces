@@ -11,11 +11,13 @@ int main()
 
     int time = 0;
 
+    // Case a = 1, b = 1
     if (c1 < 2 and c2 < 2){
         cout << 0;
         return 0;
     }
-    
+
+    // Other cases
     if(c1 >= c2){
         swap(c1, c2);
     }
