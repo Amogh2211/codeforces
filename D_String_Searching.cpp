@@ -6,10 +6,9 @@ using namespace std;
 
 void solve()
 {
-    int x, y, k;
-    cin >> x >> y >> k;
-
-    std::cout << max(2*((x + k - 1) / k) - 1,  2*((y + k - 1)/k)) << '\n';
+    int n;
+    cin >> n;
+    
 }
 
 int main()

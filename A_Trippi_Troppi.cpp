@@ -6,10 +6,12 @@ using namespace std;
 
 void solve()
 {
-    int x, y, k;
-    cin >> x >> y >> k;
-
-    std::cout << max(2*((x + k - 1) / k) - 1,  2*((y + k - 1)/k)) << '\n';
+    std::vector<string> vec;
+    for (int i = 0; i < 3; ++i){
+        string s; cin >> s;
+        vec.push_back(s);
+    }
+    std::cout << vec[0][0]<< vec[1][0]<< vec[2][0] << '\n';
 }
 
 int main()

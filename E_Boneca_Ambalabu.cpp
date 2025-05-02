@@ -6,10 +6,16 @@ using namespace std;
 
 void solve()
 {
-    int x, y, k;
-    cin >> x >> y >> k;
+    int n;
+    cin >> n;
+    std::vector<int> vec;
+    for (int i = 0; i < n; ++i){
+        int temp; cin >> temp;
+        vec.push_back(temp);
+    }
 
-    std::cout << max(2*((x + k - 1) / k) - 1,  2*((y + k - 1)/k)) << '\n';
+    
+    
 }
 
 int main()

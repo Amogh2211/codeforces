@@ -27,7 +27,6 @@ void solve()
 
     for(int i : positive){
         the_rest.push_back(i);
-
     }
 
     for(int i : negative){
